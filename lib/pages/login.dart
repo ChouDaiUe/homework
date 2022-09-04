@@ -194,7 +194,8 @@ class _LoginState extends State<Login> {
         child: Column(
           children: [
             Image.asset('images/login_back.png'),
-            ElevatedButton(onPressed: _loginsheet, child: Text("login")),
+            SizedBox(height: 100,),
+            ElevatedButton(onPressed: _loginsheet, child: Text("点击登陆")),
           ],
         ),
       ),
