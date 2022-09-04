@@ -49,7 +49,6 @@ class _ImagePickeState extends State<ImagePicke> {
           height: 30,
         ),
         ElevatedButton(onPressed: getImagePath, child: Text("相机拍摄")),
-        ElevatedButton(onPressed: () {}, child: Text("剪裁")),
       ]),
     );
   }
